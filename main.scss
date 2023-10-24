@@ -1,8 +1,5 @@
-@import "reset";
-
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
+@import 'reset';
+@import 'variable';
 
 $font-weights: (
   'regular': 400,
@@ -21,8 +18,8 @@ body {
   #{&}-paragraph {
     font-weight: map-get($font-weights, bold);
 
-    &:hover{
-        color: green;
+    &:hover {
+      color: green;
     }
   }
 }
