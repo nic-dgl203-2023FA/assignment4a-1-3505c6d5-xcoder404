@@ -12,5 +12,14 @@ $font-weights:(
 body {
     background-color: $primary-color;
     color: $text-color;
+  }
+
+  .main{
+    width: 80%;
+    margin: 0 auto;
+    .main-paragraph{
     font-weight: map-get($font-weights , bold );
+
+    }
+
   }
