@@ -18,5 +18,9 @@ body {
   margin: 0 auto;
   #{&}-paragraph {
     font-weight: map-get($font-weights, bold);
+
+    &:hover{
+        color: green;
+    }
   }
 }
