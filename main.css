@@ -1,2 +1,9 @@
+:root {
+  --primary-color:#272727;
+  --accent-color:#ff652f;
+  --text-color:#fff;
+}
 
-/*# sourceMappingURL=main.css.map */
+body {
+  background-color: var(--primary-color);
+}
