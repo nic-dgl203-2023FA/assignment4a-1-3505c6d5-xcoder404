@@ -101,9 +101,9 @@
       font-weight: 300;
       @include transition-ease;
 
-        &.active > a{
-            color: $secondary-color;
-        }
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }
