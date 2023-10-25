@@ -23,6 +23,12 @@ $font-weights: (
     color: darken($text-color, 100%);
   }
 }
+
+@mixin mobile{
+    @media (max-width: $mobile){
+        @content;
+    }
+}
 body {
   background-color: $primary-color;
   color: $text-color;
@@ -39,8 +45,14 @@ body {
       color: green;
     }
   }
+
+  @include mobile{
+    flex-direction: row;
+  }
 }
 
 .light {
   @include theme($light-theme: false);
 }
+
+

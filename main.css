@@ -22,4 +22,9 @@ body {
 }
 .main .main-paragraph:hover {
   color: green;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=main.css.map */
