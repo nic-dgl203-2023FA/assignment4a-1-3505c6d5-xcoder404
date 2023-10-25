@@ -180,6 +180,43 @@
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.recipes {
+  padding-bottom: 2rem;
+}
+.recipes-image {
+  height: 30vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("images/apple.jpg") center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.recipes-image .text-secondary {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.recipes-items {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.recipes-item {
+  position: relative;
+  border-bottom: 5px solid #444444;
+  overflow: hidden;
+  cursor: pointer;
+}
+.recipes-item img {
+  width: 100%;
+}
+.recipes footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
 body {
   background: #8db600;
   color: #fff;
