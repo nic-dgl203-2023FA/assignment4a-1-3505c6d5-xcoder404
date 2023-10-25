@@ -107,3 +107,9 @@
     }
   }
 }
+
+@for $i from 1 through 4{
+.menu-nav-item:nth-child(#{$i}){
+    transition-delay: ($i * 0.1s) + 0.15s;
+}
+}

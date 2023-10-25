@@ -122,6 +122,22 @@
   color: #ff1e00;
 }
 
+.menu-nav-item:nth-child(1) {
+  transition-delay: 0.25s;
+}
+
+.menu-nav-item:nth-child(2) {
+  transition-delay: 0.35s;
+}
+
+.menu-nav-item:nth-child(3) {
+  transition-delay: 0.45s;
+}
+
+.menu-nav-item:nth-child(4) {
+  transition-delay: 0.55s;
+}
+
 body {
   background: #8db600;
   color: #fff;
