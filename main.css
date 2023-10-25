@@ -176,6 +176,9 @@
 .about .types-type h2, .about .types-type h3 {
   margin: 0.5rem 0;
 }
+.about footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
 
 body {
   background: #8db600;
