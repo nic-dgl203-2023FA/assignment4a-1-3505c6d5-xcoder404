@@ -80,13 +80,26 @@
     &.open {
       transform: translateY(0);
     }
-    &-item{
-        transform: translateX(100vw);
-        @include transition-ease;
+    &-item {
+      transform: translateX(100vw);
+      @include transition-ease;
 
-        &.open{
-            transform: translateX(0);
-        }
+      &.open {
+        transform: translateX(0);
+      }
+
+      &.active > a {
+        color: $secondary-color;
+      }
+    }
+
+    &-link {
+      display: inline-block;
+      font-size: 2rem;
+      text-transform: uppercase;
+      padding: 2rem 0;
+      font-weight: 300;
+      @include transition-ease;
 
         &.active > a{
             color: $secondary-color;
