@@ -19,4 +19,11 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */
