@@ -138,6 +138,20 @@
   transition-delay: 0.55s;
 }
 
+.about {
+  padding-bottom: 2rem;
+}
+.about-image {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("images/apple.jpg") center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 body {
   background: #8db600;
   color: #fff;
