@@ -78,10 +78,10 @@
   top: 0;
   left: 0;
   width: 100vw;
-  opacity: 0.9;
+  opacity: 0.98;
   visibility: hidden;
 }
-.nav.nav {
+.nav.open {
   visibility: visible;
 }
 .nav .menu-nav {
@@ -107,7 +107,7 @@
 .nav .menu-nav-item.open {
   transform: translateX(0);
 }
-.nav .menu-nav.active > a {
+.nav .menu-nav-item.active > a {
   color: #ff1e00;
 }
 
