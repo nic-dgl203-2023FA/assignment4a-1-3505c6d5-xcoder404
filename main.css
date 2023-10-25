@@ -38,10 +38,32 @@
   position: absolute;
   right: 0;
   top: 0.5rem;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.menu-btn-burger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
   width: 28px;
   height: 3px;
   background: #fff;
   transition: all 0.3s ease-in-out;
+}
+.menu-btn-burger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 14px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.menu-btn-burger.open {
+  transform: rotate(720deg);
+  background: transparent;
 }
 
 body {
