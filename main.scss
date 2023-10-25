@@ -10,10 +10,11 @@ $font-weights: (
   'bold': 700,
 );
 
-@mixin flex-center{
+@mixin flex-center($direction){
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: $direction;
 }
 body {
   background-color: $primary-color;
@@ -21,7 +22,7 @@ body {
 }
 
 .main {
-    @include flex-center;
+    @include flex-center(column);
   width: 80%;
   margin: 0 auto;
   #{&}-paragraph {
