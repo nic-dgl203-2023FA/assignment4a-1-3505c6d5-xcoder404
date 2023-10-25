@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: url(apple.jpg);
+  background-size: cover;
+}
+
 body {
   background: #8db600;
   color: #fff;
