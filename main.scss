@@ -3,7 +3,7 @@
 
 body{
     background:$primary-color;
-    color:#fff;
+    color:set-text-color($text-color);
     height:100vh;
     font-family: 'Poppins', sans-serif;
     line-height: 1;
@@ -14,7 +14,7 @@ h1, h2, h3{
 }
 
 a{
-    color: #fff;
+    color:set-text-color($text-color);
     text-decoration: none;
 }
 
@@ -43,5 +43,5 @@ footer{
     right: 1rem;
     text-align: center;
     padding:1rem;
-    color:#fff;
+    color:set-text-color($text-color);
 }
