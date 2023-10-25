@@ -232,6 +232,9 @@
   top: 0;
   opacity: 0.9;
 }
+.recipes-item:hover .recipes-btn {
+  opacity: 1;
+}
 .recipes-btns {
   position: absolute;
   top: 0;
@@ -242,6 +245,14 @@
   grid-template-columns: 1fr;
   align-items: center;
   text-align: center;
+}
+.recipes-btn {
+  opacity: 0;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.recipes-btn:hover {
+  color: #000;
 }
 .recipes footer {
   transform: rotate(90deg) translate(-3rem, -5rem);

@@ -54,6 +54,9 @@
         top: 0;
         opacity: 0.9;
       }
+      .recipes-btn{
+        opacity: 1;
+      }
     }
   }
 
@@ -68,6 +71,19 @@
     align-items: center;
     text-align: center;
   }
+
+  &-btn{
+    opacity: 0;
+    color: set-text-color($contrast-color);
+    @include transition-ease;
+
+    &:hover{
+        color:set-text-color(set-text-color($contrast-color));
+
+    }
+  }
+
+
   
 
   footer {
