@@ -104,7 +104,7 @@
   transform: translateX(100vw);
   transition: all 0.3s ease-in-out;
 }
-.nav .menu-nav.open {
+.nav .menu-nav-item.open {
   transform: translateX(0);
 }
 .nav .menu-nav.active > a {
