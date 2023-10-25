@@ -17,6 +17,28 @@
     }
   }
   
+  &-apple{
+    width: 80%;
+    text-align: center;
+
+    .text-secondary{
+        padding-bottom: 1rem;
+    }
+  }
+
+  .types{
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:2rem;
+
+    &-type{
+        background: darken($primary-color, 3%);
+        padding: 0.5rem;
+        border-bottom: 5px solid $contrast-color;
+    }
+  }
 }
 
 

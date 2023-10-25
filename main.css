@@ -154,6 +154,25 @@
 .about-image p {
   margin-block-end: 2rem;
 }
+.about-apple {
+  width: 80%;
+  text-align: center;
+}
+.about-apple .text-secondary {
+  padding-bottom: 1rem;
+}
+.about .types {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.about .types-type {
+  background: #81a700;
+  padding: 0.5rem;
+  border-bottom: 5px solid #444444;
+}
 
 body {
   background: #8db600;
