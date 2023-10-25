@@ -34,10 +34,13 @@
     grid-gap:2rem;
 
     &-type{
-        background: darken($primary-color, 3%);
+        background: darken($contrast-color, 3%);
         padding: 0.5rem;
-        border-bottom: 5px solid $contrast-color;
+        border-bottom: 5px solid $primary-color;
 
+        h2{
+            color: $primary-color;
+        }
         h2,h3{
             margin: 0.5rem 0;
         }
