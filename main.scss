@@ -10,14 +10,18 @@ $font-weights: (
   'bold': 700,
 );
 
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body {
   background-color: $primary-color;
   color: $text-color;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
+    @include flex-center;
   width: 80%;
   margin: 0 auto;
   #{&}-paragraph {
