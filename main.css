@@ -173,6 +173,9 @@
   padding: 0.5rem;
   border-bottom: 5px solid #444444;
 }
+.about .types-type h2, .about .types-type h3 {
+  margin: 0.5rem 0;
+}
 
 body {
   background: #8db600;
