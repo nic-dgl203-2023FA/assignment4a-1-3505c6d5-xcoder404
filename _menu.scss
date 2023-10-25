@@ -73,12 +73,26 @@
         height: 100vh;
         overflow: hidden;
         background-color: $text-color;
+        list-style-type:none;
         padding-right: 1rem;
         transform: translateY(-100%);
         @include transition-ease;
 
         &.open{
             transform: translateY(0);
+        }
+
+        &-item{
+            transform: translateX(100vw);
+            @include transition-ease;
+        }
+
+        &.open{
+            transform: translateX(0);
+        }
+
+        &.active > a{
+            color:$secondary-color;
         }
     }
 }

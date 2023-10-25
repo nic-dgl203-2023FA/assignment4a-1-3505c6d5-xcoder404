@@ -92,12 +92,23 @@
   height: 100vh;
   overflow: hidden;
   background-color: #272727;
+  list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
   transition: all 0.3s ease-in-out;
 }
 .nav .menu-nav.open {
   transform: translateY(0);
+}
+.nav .menu-nav-item {
+  transform: translateX(100vw);
+  transition: all 0.3s ease-in-out;
+}
+.nav .menu-nav.open {
+  transform: translateX(0);
+}
+.nav .menu-nav.active > a {
+  color: #ff1e00;
 }
 
 body {
