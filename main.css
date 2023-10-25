@@ -1,1 +1,12 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #8db600;
+  color: #fff;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=main.css.map */
