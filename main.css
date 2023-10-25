@@ -151,6 +151,9 @@
   align-items: center;
   justify-content: flex-end;
 }
+.about-image p {
+  margin-block-end: 2rem;
+}
 
 body {
   background: #8db600;
@@ -171,6 +174,10 @@ a {
 
 .text-secondary {
   color: #ff1e00;
+}
+
+.title {
+  color: #444444;
 }
 
 header {

@@ -24,6 +24,10 @@ a{
 .text-secondary{
     color:$secondary-color;
 }
+
+.title{
+    color:$contrast-color;
+}
 header{
     position: fixed;
     z-index: 2;
