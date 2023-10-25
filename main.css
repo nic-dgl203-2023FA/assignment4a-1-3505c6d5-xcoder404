@@ -155,6 +155,10 @@ a {
   text-decoration: none;
 }
 
+.text-secondary {
+  color: #ff1e00;
+}
+
 header {
   position: fixed;
   z-index: 2;
