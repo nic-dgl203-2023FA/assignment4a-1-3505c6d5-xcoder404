@@ -1,8 +1,17 @@
 $primary-color: #8db600;
 $secondary-color:#ff1e00;
+$text-color:#272727;
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+@function set-text-color($color){
+    @if (lightness($color) > 40%){
+        @return #000;
+    } @else{
+        @return #fff;
+    }
 }
