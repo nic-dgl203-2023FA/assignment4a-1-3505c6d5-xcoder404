@@ -26,4 +26,9 @@ header {
   z-index: 2;
   width: 100%;
   padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
