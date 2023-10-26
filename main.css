@@ -319,6 +319,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .recipes-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .resources-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 body {
   background: #444444;
   color: #fff;
