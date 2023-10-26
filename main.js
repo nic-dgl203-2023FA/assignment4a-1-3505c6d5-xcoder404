@@ -8,18 +8,18 @@ let showMenu = false;
 
 menubtn.addEventListener('click', toogleMenu);
 
-function toogleMenu(){
-    if(!showMenu){
-        hamburger.classList.add('open');
-        nav.classList.add('open');
-        menuNav.classList.add('open');
-        navItems.forEach(item => item.classList.add('open'));
-        showMenu = true;
-    }else{
-        hamburger.classList.remove('open');
-        nav.classList.remove('open');
-        menuNav.classList.remove('open');
-        navItems.forEach(item => item.classList.remove('open'));
-        showMenu = false;
-    }
+function toogleMenu() {
+  if (!showMenu) {
+    hamburger.classList.add('open');
+    nav.classList.add('open');
+    menuNav.classList.add('open');
+    navItems.forEach((item) => item.classList.add('open'));
+    showMenu = true;
+  } else {
+    hamburger.classList.remove('open');
+    nav.classList.remove('open');
+    menuNav.classList.remove('open');
+    navItems.forEach((item) => item.classList.remove('open'));
+    showMenu = false;
+  }
 }

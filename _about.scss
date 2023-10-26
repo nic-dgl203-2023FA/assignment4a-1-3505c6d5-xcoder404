@@ -12,45 +12,43 @@
     align-items: center;
     justify-content: flex-end;
 
-    p{
-        margin-block-end: 2rem;
+    p {
+      margin-block-end: 2rem;
     }
   }
-  
-  &-apple{
+
+  &-apple {
     width: 80%;
     text-align: center;
 
-    .text-secondary{
-        padding-bottom: 1rem;
+    .text-secondary {
+      padding-bottom: 1rem;
     }
   }
 
-  .types{
+  .types {
     width: 60vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:2rem;
+    grid-gap: 2rem;
 
-    &-type{
-        background: darken($contrast-color, 3%);
-        padding: 0.5rem;
-        border-bottom: 5px solid $primary-color;
+    &-type {
+      background: darken($contrast-color, 3%);
+      padding: 0.5rem;
+      border-bottom: 5px solid $primary-color;
 
-        h2{
-            color: $primary-color;
-        }
-        h2,h3{
-            margin: 0.5rem 0;
-        }
-
+      h2 {
+        color: $primary-color;
+      }
+      h2,
+      h3 {
+        margin: 0.5rem 0;
+      }
     }
   }
 
-  footer{
+  footer {
     transform: rotate(90deg) translate(-3rem, -5rem);
   }
 }
-
-
