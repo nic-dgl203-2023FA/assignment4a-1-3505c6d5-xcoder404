@@ -327,6 +327,11 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media screen and (min-width: 1600px) {
+  .recipes-image {
+    height: 50vh;
+  }
+}
 body {
   background: #444444;
   color: #fff;

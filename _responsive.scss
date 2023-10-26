@@ -52,7 +52,13 @@
     }
   }
 
-  .resources-list{
+  .resources-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@include media-xl {
+  .recipes-image {
+    height: 50vh;
   }
 }
