@@ -59,6 +59,8 @@
   width: 100vw;
   opacity: 0.98;
   visibility: hidden;
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(50px);
 
   &.open {
     visibility: visible;
