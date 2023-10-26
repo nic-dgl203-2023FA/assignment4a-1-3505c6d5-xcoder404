@@ -366,9 +366,6 @@ header {
   width: 100%;
   padding: 1rem;
 }
-header .nav .menu-nav {
-  display: flex;
-}
 
 main {
   height: 100%;
