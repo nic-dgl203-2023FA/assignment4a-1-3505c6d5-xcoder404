@@ -1,21 +1,40 @@
 $primary-color: #8db600;
-$secondary-color:#ff1e00;
+$secondary-color: #ff1e00;
 $contrast-color: #444444;
-$text-color:#272727;
+$text-color: #272727;
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@mixin transition-ease{
-    transition: all 0.3s ease-in-out;
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
 }
-@function set-text-color($color){
-    @if (lightness($color) > 40%){
-        @return #000;
-    } @else{
-        @return #fff;
+@function set-text-color($color) {
+  @if (lightness($color) > 40%) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+      @content;
     }
-}
+  }
+  
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+      @content;
+    }
+  }
