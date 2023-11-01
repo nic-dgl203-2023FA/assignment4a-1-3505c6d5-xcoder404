@@ -23,6 +23,7 @@
   
       .text-secondary {
         padding-bottom: 1rem;
+        font-size: 2rem;
       }
     }
   
@@ -44,6 +45,7 @@
         h2,
         h3 {
           margin: 0.5rem 0;
+          color:$primary-color;
         }
       }
     }
