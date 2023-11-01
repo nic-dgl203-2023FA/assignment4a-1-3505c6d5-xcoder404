@@ -81,8 +81,7 @@
   opacity: 0.98;
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.4);
-  -webkit-backdrop-filter: blur(50px);
-          backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
 }
 .nav.open {
   visibility: visible;
@@ -139,6 +138,10 @@
 
 .menu-nav-item:nth-child(4) {
   transition-delay: 0.55s;
+}
+
+.menu-nav-item:nth-child(5) {
+  transition-delay: 0.65s;
 }
 
 .about {
@@ -336,6 +339,65 @@
     height: 50vh;
   }
 }
+.feature {
+  padding-bottom: 2rem;
+}
+.feature-image {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("images/apple-pie1.jpg") center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.feature-image p {
+  margin-block-end: 2rem;
+}
+.feature-apple {
+  width: 80%;
+  text-align: center;
+}
+.feature-apple .text-secondary {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.feature .instruction {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.feature .instruction-type {
+  background: #3c3c3c;
+  padding: 0.5rem;
+  border-bottom: 5px solid #8db600;
+}
+.feature .instruction-type h2 {
+  color: #8db600;
+}
+.feature .instruction-type h2,
+.feature .instruction-type h3 {
+  margin: 0.5rem 0;
+  color: #8db600;
+}
+.feature .instruction-type ul, .feature .instruction-type ol {
+  padding-left: 1.5rem;
+}
+.feature .instruction-type li {
+  padding: 1rem 0;
+}
+.feature .instruction-type .steps3 > li {
+  color: #8db600;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.feature footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
 body {
   background: #444444;
   color: #fff;
