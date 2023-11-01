@@ -1,75 +1,72 @@
 .feature {
-    padding-bottom: 2rem;
-  
-    &-image {
-      height:60vh;
-      width: 100%;
-      background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
-        url('images/apple-pie1.jpg') center center fixed;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-  
-      p {
-        margin-block-end: 2rem;
-      }
-    }
-  
-    &-apple {
-      width: 80%;
-      text-align: center;
-  
-      .text-secondary {
-        padding-bottom: 1rem;
-        font-size: 2rem;
-      }
-    }
-  
-    .instruction {
-      width: 60vw;
-      margin: 2rem auto 0 auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 2rem;
-  
-      &-type {
-        background: darken($contrast-color, 3%);
-        padding: 0.5rem;
-        border-bottom: 5px solid $primary-color;
-  
-        h2 {
-          color: $primary-color;
-        }
-        h2,
-        h3 {
-          margin: 0.5rem 0;
-          color:$primary-color;
-        }
+  padding-bottom: 2rem;
 
-        ul,ol{
-            padding-left: 1.5rem;
-        }
+  &-image {
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+      url('images/apple-pie1.jpg') center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 
-        li{
-            padding:1rem 0;
-        }
-
-        &-steps3 {
-            > li{
-                color:$primary-color;
-                font-size: 1.2rem;
-                font-weight: 500;
-            }
-        }
-
-        
-      }
-    }
-  
-    footer {
-      transform: rotate(90deg) translate(-3rem, -5rem);
+    p {
+      margin-block-end: 2rem;
     }
   }
-  
+
+  &-apple {
+    width: 80%;
+    text-align: center;
+
+    .text-secondary {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .instruction {
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+
+    &-type {
+      background: darken($contrast-color, 3%);
+      padding: 0.5rem;
+      border-bottom: 5px solid $primary-color;
+
+      h2 {
+        color: $primary-color;
+      }
+      h2,
+      h3 {
+        margin: 0.5rem 0;
+        color: $primary-color;
+      }
+
+      ul,
+      ol {
+        padding-left: 1.5rem;
+      }
+
+      li {
+        padding: 1rem 0;
+      }
+
+      &-steps3 {
+        > li {
+          color: $primary-color;
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}
