@@ -389,7 +389,7 @@
 .feature .instruction-type li {
   padding: 1rem 0;
 }
-.feature .instruction-type .steps3 > li {
+.feature .instruction-type-steps3 > li {
   color: #8db600;
   font-size: 1.2rem;
   font-weight: 500;
